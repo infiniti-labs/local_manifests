@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <extend-project name="LineageOS/android_hardware_qcom-caf_common" path="hardware/qcom-caf/common">
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8850/Android.bp" />
+  </extend-project>
+  <project path="device/qcom/sepolicy_vndr/sm8850" name="LineageOS/android_device_qcom_sepolicy_vndr" remote="lineageos" revision="lineage-24.0-caf-sm8850" clone-depth="1" />
+  <project path="hardware/qcom-caf/sm8850/audio/agm" name="LineageOS/android_vendor_qcom_opensource_agm" remote="lineageos" revision="lineage-24.0-caf-sm8850" clone-depth="1" />
+  <project path="hardware/qcom-caf/sm8850/audio/graphservices" name="LineageOS/android_vendor_qcom_opensource_audioreach-graphservices" remote="lineageos" revision="lineage-24.0-caf-sm8850" clone-depth="1" />
+  <project path="hardware/qcom-caf/sm8850/audio/pal" name="LineageOS/android_vendor_qcom_opensource_arpal-lx" remote="lineageos" revision="lineage-24.0-caf-sm8850" clone-depth="1" />
+  <project path="hardware/qcom-caf/sm8850/audio/primary-hal" name="LineageOS/android_hardware_qcom_audio-ar" remote="lineageos" revision="lineage-24.0-caf-sm8850" clone-depth="1" />
+  <project path="hardware/qcom-caf/sm8850/data-ipa-cfg-mgr" name="LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="lineageos" revision="lineage-24.0-caf-sm8850" clone-depth="1" />
+  <project path="hardware/qcom-caf/sm8850/dataipa" name="LineageOS/android_vendor_qcom_opensource_dataipa" remote="lineageos" revision="lineage-24.0-caf-sm8850" clone-depth="1" />
+  <project path="hardware/qcom-caf/sm8850/display/core" name="LineageOS/android_vendor_qcom_opensource_display-core" remote="lineageos" revision="lineage-24.0-caf-sm8850" clone-depth="1" />
+  <project path="hardware/qcom-caf/sm8850/display/hal" name="LineageOS/android_hardware_qcom_display" remote="lineageos" revision="lineage-24.0-caf-sm8850" clone-depth="1" />
+  <project path="hardware/qcom-caf/sm8850/display/intf" name="LineageOS/android_vendor_qcom_opensource_display-intf" remote="lineageos" revision="lineage-24.0-caf-sm8850" clone-depth="1" />
+</manifest>

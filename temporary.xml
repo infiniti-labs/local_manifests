@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Temporary until the SM8850 changes are merged into LineageOS. -->
+  <remove-project name="LineageOS/android_vendor_qcom_opensource_display-core" path="hardware/qcom-caf/sm8850/display/core" />
+  <project path="hardware/qcom-caf/sm8850/display/core" name="infiniti-labs/android_vendor_qcom_opensource_display-core" remote="github" revision="lineage-24.0-caf-sm8850" clone-depth="1" />
+</manifest>
