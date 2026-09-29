@@ -5,7 +5,7 @@
     <linkfile src="kleaf/bzlmod/bazel.MODULE.bazel" dest="kernel/platform/kernel-6.12/MODULE.bazel" />
     <linkfile src="kleaf/bzlmod/bazel.WORKSPACE.bzlmod" dest="kernel/platform/kernel-6.12/WORKSPACE.bzlmod" />
   </project>
-  <project path="kernel/platform/kernel-6.12/common" name="kernel/common" revision="android16-6.12-2026-09" remote="aosp" clone-depth="1" />
+  <project path="kernel/platform/kernel-6.12/common" name="infiniti-labs/kernel_common" revision="seventeen" remote="github" clone-depth="1" />
   <project path="kernel/platform/kernel-6.12/common-modules/wonder" name="kernel/common-modules/wonder" revision="15951b206b7cbe4ffa08c7896d4951a56853e4ba" remote="aosp" clone-depth="1" />
   <project path="kernel/platform/kernel-6.12/common-modules/trusty" name="kernel/common-modules/trusty" revision="main-kernel-2025" remote="aosp" clone-depth="1" />
   <project path="kernel/platform/kernel-6.12/common-modules/virtio-media" name="platform/external/virtio-media" revision="main-kernel-2025" remote="aosp" clone-depth="1" />
