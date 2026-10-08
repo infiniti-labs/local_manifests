@@ -5,7 +5,7 @@
     <linkfile src="kleaf/bzlmod/bazel.MODULE.bazel" dest="kernel/platform/kernel-6.12/MODULE.bazel" />
     <linkfile src="kleaf/bzlmod/bazel.WORKSPACE.bzlmod" dest="kernel/platform/kernel-6.12/WORKSPACE.bzlmod" />
   </project>
-  <project path="kernel/platform/kernel-6.12/common" name="kernel/common" revision="android16-6.12-2026-06" upstream="android16-6.12-2026-06" dest-branch="android16-6.12-2026-06" remote="aosp" groups="kernel-platform,kernel-platform-612" />
+  <project path="kernel/platform/kernel-6.12/common" name="infiniti-labs/kernel_common" revision="seventeen" remote="github" groups="kernel-platform,kernel-platform-612" />
   <!-- Uncomment for local testing only -->
   <!-- project path="kernel/tests" name="kernel/tests" revision="main-kernel" clone-depth="1" / -->
   <project path="kernel/platform/kernel-6.12/common-modules/wonder" name="kernel/common-modules/wonder" revision="45977ff0bb27e608bdf6357438d69ccaccddf2d8" upstream="android16-6.12" dest-branch="android16-6.12" remote="aosp" groups="kernel-platform,kernel-platform-612" />
