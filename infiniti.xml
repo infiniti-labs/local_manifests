@@ -4,7 +4,7 @@
   <project name="infiniti-labs/proprietary_vendor_oneplus_sm8850-common" path="vendor/oneplus/sm8850-common" remote="github" revision="seventeen" />
   <project name="infiniti-labs/android_device_oneplus_infiniti" path="device/oneplus/infiniti" remote="github" revision="seventeen" />
   <project name="infiniti-labs/android_device_oneplus_sm8850-common" path="device/oneplus/sm8850-common" remote="github" revision="seventeen" />
-  <project name="PixelOS-CLO/android_hardware_oplus" path="hardware/oplus" remote="github" revision="seventeen" />
+  <project name="infiniti-labs/android_hardware_oplus" path="hardware/oplus" remote="github" revision="seventeen" />
   <project name="PixelOS-CLO/android_hardware_custom_interfaces" path="hardware/custom/interfaces" remote="github" revision="seventeen" />
   <project name="infiniti-labs/android_kernel_oneplus_sm8850" path="kernel/platform/kernel-6.12/vendor/oneplus/sm8850" remote="github" revision="seventeen" />
   <project name="infiniti-labs/android_kernel_oneplus_sm8850-devicetrees" path="kernel/platform/kernel-6.12/vendor/oneplus/sm8850-devicetrees" remote="github" revision="seventeen" />
