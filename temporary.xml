@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Temporary Settings override for OPlus face unlock integration. -->
+  <remove-project name="PixelOS-CLO/android_packages_apps_Settings" />
+  <project name="infiniti-labs/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="seventeen" />
+</manifest>
