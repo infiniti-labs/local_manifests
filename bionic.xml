@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-  <remove-project name="PixelOS-CLO/android_bionic" />
-  <project name="infiniti-labs/android_bionic" path="bionic" remote="github" revision="seventeen" />
-</manifest>

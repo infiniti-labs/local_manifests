@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-  <remove-project name="PixelOS-CLO/android_packages_apps_Updater" />
-  <project name="PixelOS-AOSP/android_packages_apps_Updater" path="packages/apps/Updater" remote="github" revision="seventeen" />
-</manifest>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="device/qcom/sepolicy_vndr/sm8850" name="LineageOS/android_device_qcom_sepolicy_vndr" groups="qcom,kaanapali-vendor" revision="lineage-24.0-caf-sm8850" remote="lineageos" />
+  <project path="hardware/qcom-caf/sm8850/audio/agm" name="LineageOS/android_vendor_qcom_opensource_agm" groups="qcom,kaanapali-audio" revision="lineage-24.0-caf-sm8850" remote="lineageos" />
+  <project path="hardware/qcom-caf/sm8850/audio/graphservices" name="LineageOS/android_vendor_qcom_opensource_audioreach-graphservices" groups="qcom,kaanapali-audio" revision="lineage-24.0-caf-sm8850" remote="lineageos" />
+  <project path="hardware/qcom-caf/sm8850/audio/pal" name="LineageOS/android_vendor_qcom_opensource_arpal-lx" groups="qcom,kaanapali-audio" revision="lineage-24.0-caf-sm8850" remote="lineageos" />
+  <project path="hardware/qcom-caf/sm8850/audio/primary-hal" name="LineageOS/android_hardware_qcom_audio-ar" groups="qcom,kaanapali-audio" revision="lineage-24.0-caf-sm8850" remote="lineageos" />
+  <project path="hardware/qcom-caf/sm8850/data-ipa-cfg-mgr" name="LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,kaanapali-vendor" revision="lineage-24.0-caf-sm8850" remote="lineageos" />
+  <project path="hardware/qcom-caf/sm8850/dataipa" name="LineageOS/android_vendor_qcom_opensource_dataipa" groups="qcom,kaanapali-vendor" revision="lineage-24.0-caf-sm8850" remote="lineageos" />
+  <project path="hardware/qcom-caf/sm8850/display/core" name="LineageOS/android_vendor_qcom_opensource_display-core" groups="qcom" revision="lineage-24.0-caf-sm8850" remote="lineageos" />
+  <project path="hardware/qcom-caf/sm8850/display/hal" name="LineageOS/android_hardware_qcom_display" groups="qcom" revision="lineage-24.0-caf-sm8850" remote="lineageos" />
+  <project path="hardware/qcom-caf/sm8850/display/intf" name="LineageOS/android_vendor_qcom_opensource_display-intf" groups="qcom" revision="lineage-24.0-caf-sm8850" remote="lineageos" />
+  <extend-project name="LineageOS/android_hardware_qcom-caf_common" path="hardware/qcom-caf/common">
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8850/Android.bp" />
+  </extend-project>
+</manifest>
