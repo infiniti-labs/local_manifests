@@ -10,6 +10,7 @@
   <project path="hardware/qcom-caf/sm8850/display/core" name="LineageOS/android_vendor_qcom_opensource_display-core" groups="qcom" revision="lineage-24.0-caf-sm8850" remote="lineageos" />
   <project path="hardware/qcom-caf/sm8850/display/hal" name="LineageOS/android_hardware_qcom_display" groups="qcom" revision="lineage-24.0-caf-sm8850" remote="lineageos" />
   <project path="hardware/qcom-caf/sm8850/display/intf" name="LineageOS/android_vendor_qcom_opensource_display-intf" groups="qcom" revision="lineage-24.0-caf-sm8850" remote="lineageos" />
+  <project path="hardware/qcom/fastrpc" name="chandu-dump/android_hardware_qcom_fastrpc" revision="lineage-24.0-caf-sm8850" remote="github" />
   <extend-project name="LineageOS/android_hardware_qcom-caf_common" path="hardware/qcom-caf/common">
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8850/Android.bp" />
   </extend-project>
